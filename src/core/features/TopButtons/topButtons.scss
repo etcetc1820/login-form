@@ -1,0 +1,40 @@
+@import "src/assets/scss/variables";
+
+.topButtonsWrapper {
+  margin: 0 auto 98px;
+  position: relative;
+  z-index: 1;
+}
+
+.topButtonsRow {
+  display: flex;
+  margin: 0 auto;
+  max-width: 500px;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0 55px 0 68px;
+}
+
+.emptyLink {
+  display: block;
+  max-width: 162px;
+  width: 100%;
+  text-align: center;
+  color: $white;
+  letter-spacing: 0.6px;
+  font-size: 24px;
+  line-height: 26px;
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 7px 0;
+  text-decoration: none;
+}
+
+@media only screen and (max-height: 900px) {
+  .topButtonsWrapper {
+    margin: 0 auto 48px;
+  }
+}

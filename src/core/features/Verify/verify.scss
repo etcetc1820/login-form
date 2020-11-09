@@ -1,0 +1,45 @@
+@import "src/assets/scss/variables";
+
+.verifyForm {
+  .inputWrapper {
+    margin-bottom: 0;
+  }
+
+  .mainBtn {
+    margin-top: 20px;
+  }
+}
+
+.title {
+  color: $text-grey;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.42px;
+  color: $text-grey;
+  margin: 0 auto 15px;
+}
+
+.verifyActions {
+  margin: 22px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.errorCode {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.33px;
+  color: $error-color;
+  margin: 7px 0 0;
+  text-align: center;
+}

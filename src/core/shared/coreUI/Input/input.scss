@@ -1,0 +1,40 @@
+@import "src/assets/scss/variables";
+
+.inputWrapper {
+  position: relative;
+  margin: 0 0 17px;
+  flex: 0 0 auto;
+
+  &.smallInput {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  &.errorInput {
+    input {
+      border-color: $error-color;
+    }
+  }
+}
+
+.input {
+  width: 100%;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  padding: 14px;
+  height: 45px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: $placeholder-color;
+  }
+}
+
+.errorMessage {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.33px;
+  color: $error-color;
+  margin: 7px 0 0;
+}

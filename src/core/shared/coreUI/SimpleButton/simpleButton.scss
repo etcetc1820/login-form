@@ -1,0 +1,60 @@
+@import "src/assets/scss/variables";
+
+.passwordBtn {
+  background: #F3F5F9;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.35px;
+  color: #393B41;
+  padding: 6px 18px;
+  position: absolute;
+  right: 8px;
+  top: 8px
+}
+
+.mainBtn {
+  background: $button-color;
+  width: 100%;
+  color: $white;
+  padding: 14px 0;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.42px;
+}
+
+.backButton {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.35px;
+  color: $text-light-grey;
+  background: transparent;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-left: 6px;
+  }
+}
+
+.resendButton {
+  background: transparent;
+  color: $button-color;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.35px;
+
+  span {
+    margin-left: 6px;
+  }
+}
+
+.closeBtn {
+  background: transparent;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}

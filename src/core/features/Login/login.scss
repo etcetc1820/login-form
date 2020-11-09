@@ -1,0 +1,63 @@
+@import "src/assets/scss/variables";
+
+.title {
+  color: $text-grey;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.orWrapper {
+  color: $text-light-grey;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 21px auto 23px;
+
+  span {
+    display: block;
+    margin: 0 14px;
+  }
+}
+
+.orLine {
+  height: 1px;
+  background: $lines-color;
+  width: 100%;
+}
+
+.forgotLink {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.35px;
+  color: $text-light-grey;
+  margin: 18px auto 21px;
+}
+
+.socialButtonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomText {
+  margin: 43px auto 0;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.42px;
+  color: $text-grey;
+  text-align: center;
+
+  a {
+    color: $button-color;
+    text-decoration: none;
+  }
+}

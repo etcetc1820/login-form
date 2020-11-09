@@ -1,0 +1,72 @@
+@import "../../../../assets/scss/variables";
+
+.title {
+  color: $text-grey;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.rowInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.orWrapper {
+  color: $text-light-grey;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 28px auto 23px;
+
+  span {
+    display: block;
+    margin: 0 14px;
+  }
+}
+
+.orLine {
+  height: 1px;
+  background: $lines-color;
+  width: 100%;
+}
+
+.socialButtonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomText {
+  margin: 43px auto 0;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.42px;
+  color: $text-grey;
+  text-align: center;
+
+  a {
+    color: $button-color;
+    text-decoration: none;
+  }
+}
+
+.errorExist {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.33px;
+  color: $error-color;
+  margin: 12px 0 6px;
+  text-align: center;
+
+  a {
+    color: $button-color;
+  }
+}
